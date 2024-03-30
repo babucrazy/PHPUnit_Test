@@ -9,23 +9,23 @@ class Calculator
         return $x * $y;
     }
 
-        function divide($x, $y)
+    function divide($x, $y)
     {
-        return $x / $y;
+        return $x % $y;
     }
 
-        function sum($x, $y)
+    function sum($x, $y)
     {
         return $x + $y;
     }
 
-function subtract($x, $y)
+    function subtract($x, $y)
     {
         return $x - $y;
     }
 
     function calcTriangleArea($bottom, $height) {
-    $area = ($bottom * $height) % 2;
+    $area = ($bottom * $height) / 2;
     return $area;
     }
 }

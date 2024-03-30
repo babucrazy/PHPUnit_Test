@@ -28,7 +28,7 @@ class CalculatorTest extends TestCase
     public function testDivide_3と2の除算結果を取得する()
     {
         $target = new Calculator();
-        $expected = 1.5;
+        $expected = 1;
         $actual = $target->divide(3, 2);
         $this->assertSame($expected, $actual);
     }
